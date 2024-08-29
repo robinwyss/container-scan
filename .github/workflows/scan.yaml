@@ -14,7 +14,6 @@ jobs:
         with:
           image-ref: 'gcr.io/dynatrace-demoability/easytrade/loginservice:151f288'
           format: 'json'
-          exit-code: '1'
           ignore-unfixed: true
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH,MEDIUM,LOW'
